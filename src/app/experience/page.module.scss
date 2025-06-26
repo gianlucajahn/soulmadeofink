@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Renda";
+  src: url("./../../resources//fonts//Renda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  padding-top: 210px;
+  background-color: antiquewhite;
+  width: 100vw;
+  align-items: center;
+
+  h1 {
+    font-size: 170px;
+    font-family: "Renda", serif;
+    letter-spacing: 0.275rem;
+    color: #9e4c3a;
+
+    @media screen and (max-width: 768px) {
+      font-size: 74px;
+      letter-spacing: 0.15rem;
+      
+    }
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin-top: 12px;
+    margin-bottom: 70px;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      width: 90%;
+      font-size: 16px;
+    }
+  }
+}

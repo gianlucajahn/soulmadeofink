@@ -1,0 +1,46 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  padding-top: 210px;
+  background-color: antiquewhite;
+  width: 100vw;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 150px;
+    
+  }
+
+  h1 {
+    font-size: 170px;
+    font-family: "Renda", serif;
+    letter-spacing: 0.275rem;
+    color: #9e4c3a;
+
+        @media screen and (max-width: 768px) {
+      font-size: 74px;
+      letter-spacing: 0.15rem;
+      
+    }
+  }
+
+  .first {
+        margin-top: 40px;
+  }
+
+  h2 {
+    margin-bottom: 14px;
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 18px;
+    
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
+  }
+}

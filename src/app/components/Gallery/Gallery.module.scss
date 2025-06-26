@@ -1,0 +1,188 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  gap: 1.4rem;
+  padding: 2rem;
+  margin-bottom: 100px;
+  width: 76.5%;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    width: 95%;
+  }
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .headerTop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .cardFooter {
+    margin-top: 10px;
+
+    .date {
+      font-size: 14px;
+      font-family: "Inter", sans-serif;
+    }
+  }
+
+  .cardContent {
+    max-height: 150px;
+    line-height: 1.4;
+    overflow: hidden;
+
+    p {
+      text-align: start;
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+
+  .categories {
+    display: flex;
+    gap: 6px;
+
+    .category {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      justify-content: center;
+      background-color: #c47c6c;
+      padding: 4px 10px 6px 9px;
+      margin: 6px 0;
+      border-radius: 10px;
+    }
+  }
+
+  .cardContent {
+    padding: 6px 24px 14px 24px;
+  }
+
+  .cardHeader {
+    display: block !important;
+    background-color: #9e4c3a;
+    padding: 20px 1.8rem 10px 1.8rem;
+    border-top-left-radius: 24px;
+    color: white;
+    border-top-right-radius: 24px;
+
+    .time {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 10;
+}
+
+.modalWrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.feedbackFooter {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 6px 18px 12px 32px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    height: 48px;
+    background-color: #c47c6c;
+
+    @media screen and (max-width: 768px) {
+      height: 72px;
+    }
+
+    p {
+      margin-bottom: 0px !important;
+      color: white;
+      text-align: start;
+      width: 70%;
+      margin-bottom: 9px !important;
+      font-size: 18px;
+    }
+}
+
+.modal {
+  background: transparent;
+  width: 40%;
+  pointer-events: auto;
+  
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.modalWrapper {
+  .card {
+    box-shadow: none;
+
+    .cardContent {
+      background-color: white !important;
+      max-height: 700px;
+      overflow: scroll;
+      overflow-x: hidden;
+      margin-bottom: 0 !important;
+      padding: 14px 50px 20px 32px;
+      letter-spacing: 0.02rem;
+      line-height: 1.7;
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.gridCard {
+  .cardContent {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      width: 100%;
+      height: 7em; /* adjust how far the fade extends */
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 0%,
+        #ffffff 90%
+      );
+      pointer-events: none; /* allow clicks through the overlay */
+    }
+  }
+}

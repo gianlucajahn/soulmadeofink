@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Renda";
+  src: url("./../../../resources//fonts//Renda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  position: fixed;
+  top: 18px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  .headerContent {
+    border-radius: 48px;
+    padding: 8px 24px;
+    display: flex;
+    box-shadow: 0px 8px 0px #9e4c3a;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffdaa4;
+    border: 3px solid #9e4c3a;
+    transition: 0.2s all;
+    box-shadow: 10px 10px 28px rgba(0, 0, 0, 0.19);
+
+    @media screen and (max-width: 768px) {
+      &:hover {
+        padding: 8px 40px;
+      }
+    }
+
+    &:hover {
+      padding: 8 140px;
+      box-shadow: 10px 10px 28px rgba(0, 0, 0, 0.19), 0px 10px 0px #9e4c3a;
+
+      @media screen and (max-width: 768px) {
+        &:hover {
+          padding: 8px 40px;
+        }
+      }
+    }
+
+    .divider {
+      height: 40px;
+      width: 3px;
+      border-radius: 99px;
+      background-color: #b46958;
+    }
+
+    button {
+      display: flex;
+      color: #9e4c3a;
+      font-weight: 600;
+      font-family: "Renda", serif;
+      align-items: center;
+      cursor: pointer;
+      font-size: 26px;
+      justify-content: center;
+      border-radius: 18px;
+      gap: 12px;
+      border: none;
+      background-color: transparent;
+      padding: 12px;
+      transition: 0.2s all;
+
+      &:hover {
+        color: #cf8372;
+        transform: translateY(-4px);
+      }
+    }
+  }
+}
+
+.conditional {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
