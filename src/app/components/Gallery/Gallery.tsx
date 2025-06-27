@@ -7,24 +7,24 @@ import { Clock, Feather, MessageCircleMore } from "lucide-react";
 import Link from "next/link";
 
 const poems = [
-  {
+    {
     id: 1,
-    title: "Cognizance",
-    content:
-      "Merely a faint glimpse into your soul is what I've gotten so far, yet was it enough to make me feel like a fresh summer breeze blew through a home I didn't know I had. \n For you to appear in my dreams when I barely knew your face. \n For me to know it's you even if I hadnt seen your face at all. \n For me to realize, at long last, I've always missed this sense of home. \n I missed you without even knowing you.",
-    words: 80,
-    categories: ["Melancholy", "Romance"],
-    dateWritten: "2024-08-04T00:00:00Z",
-    author: ""
-  },
-  {
-    id: 2,
     title: "An untouched death",
     content:
       "I want to write. I want to live.\n A life, together with you and dedicated to you. \n I despise death but when the time comes, burn me, for the heat will reduce all my fears to nothing. My body, my life and my purpose will be lamented. In my ashes, all that will remain of me are the memories of you. \n So go, and scatter what's left of me in fields of crops. Let the wind carry me in my ghostly form. Each atom a memory of you repurposed into growing something as beautiful as you. \n Strangers will feel the lure of your delicate heart in the flowering pastures as once did I when I saw you. \n Over time, a tree will grow, strong and fierce. Cut it down, so that they can feel the warmth you once provided to me.",
     words: 124,
     categories: ["Death", "Romance"],
     dateWritten: "2024-22-10T00:00:00Z",
+    author: ""
+  },
+  {
+    id: 2,
+    title: "Cognizance",
+    content:
+      "Merely a faint glimpse into your soul is what I've gotten so far, yet was it enough to make me feel like a fresh summer breeze blew through a home I didn't know I had. \n For you to appear in my dreams when I barely knew your face. \n For me to know it's you even if I hadnt seen your face at all. \n For me to realize, at long last, I've always missed this sense of home. \n I missed you without even knowing you.",
+    words: 80,
+    categories: ["Melancholy", "Romance"],
+    dateWritten: "2024-08-04T00:00:00Z",
     author: ""
   },
   {
@@ -257,7 +257,7 @@ export default function Gallery(props: { category: string }) {
                   <h4>{item.title}</h4>
                   <div className={styles.time}>
                     <Clock size={16} />
-                    {item.words} Wörter
+                    {item.words} words
                   </div>
                 </div>
                 <div className={styles.categories}>
