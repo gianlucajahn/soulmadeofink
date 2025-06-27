@@ -342,7 +342,7 @@ export default function Gallery(props: { category: string }) {
                     ) : (
                       <>
                         <Feather color="white" />
-                        <p className={styles.lowerEndText}>Author: {items().find((i) => i.id === selectedId)?.author}</p>
+                        <p className={styles.lowerEndText} style={{ color: "white" }}>Author: {items().find((i) => i.id === selectedId)?.author}</p>
                       </>
                     )}
                   </div>
