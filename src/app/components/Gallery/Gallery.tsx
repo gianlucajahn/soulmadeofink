@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./Gallery.module.scss";
 import { Clock, Feather, MessageCircleMore } from "lucide-react";
-import css from "styled-jsx/css";
 import Link from "next/link";
 
 const poems = [

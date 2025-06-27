@@ -1,10 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import styles from "./page.module.scss";
-import Image from "next/image";
-import Gallery from "../components/Gallery/Gallery";
+
 
 const tabs = ["Apps", "Games"];
 
