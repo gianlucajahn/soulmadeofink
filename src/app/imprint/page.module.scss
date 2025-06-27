@@ -16,6 +16,7 @@
     font-family: "Renda", serif;
     letter-spacing: 0.275rem;
     color: #9e4c3a;
+      color: #171717 !important;
 
         @media screen and (max-width: 768px) {
       font-size: 74px;
@@ -26,10 +27,12 @@
 
   .first {
         margin-top: 40px;
+          color: #171717 !important;
   }
 
   h2 {
     margin-bottom: 14px;
+      color: #171717 !important;
   }
 
   p {
@@ -37,6 +40,7 @@
     font-size: 20px;
     width: 40%;
     text-align: center;
+      color: #171717 !important;
     margin-bottom: 18px;
     
     @media screen and (max-width: 768px) {
