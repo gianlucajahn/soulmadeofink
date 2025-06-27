@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import styles from "./Gallery.module.scss";
 import { Clock, Feather, MessageCircleMore } from "lucide-react";
 import css from "styled-jsx/css";
+import Link from "next/link";
 
 const poems = [
   {
@@ -15,6 +16,7 @@ const poems = [
     words: 80,
     categories: ["Melancholy", "Romance"],
     dateWritten: "2024-08-04T00:00:00Z",
+    author: ""
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ const poems = [
     words: 124,
     categories: ["Death", "Romance"],
     dateWritten: "2024-22-10T00:00:00Z",
+    author: ""
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ const poems = [
     words: 164,
     categories: ["Romance", "Fragility"],
     dateWritten: "2022-08-30T00:00:00Z",
+    author: ""
   },
   {
     id: 4,
@@ -42,6 +46,7 @@ const poems = [
     words: 110,
     categories: ["Parenthood", "Memory"],
     dateWritten: "2021-05-19T00:00:00Z",
+    author: ""
   },
   {
     id: 5,
@@ -51,6 +56,7 @@ const poems = [
     words: 523,
     categories: ["Romance", "Humility"],
     dateWritten: "2023-01-27T00:00:00Z",
+    author: ""
   },
 ];
 
@@ -204,6 +210,7 @@ const experiences = [
     words: 1955,
     categories: ["Religion", "Philosophy"],
     dateWritten: "2023-10-01T00:00:00Z",
+    author: ""
   },
   {
     id: 2,
@@ -213,11 +220,12 @@ const experiences = [
     words: 862,
     categories: ["Society", "Behavioral Science"],
     dateWritten: "2023-10-01T00:00:00Z",
+    author: ""
   },
 ];
 
 export default function Gallery(props: { category: string }) {
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   const items = () => {
     if (props.category === "poetry") {
@@ -325,7 +333,7 @@ export default function Gallery(props: { category: string }) {
                       </div>
                     ))}
                 </div>
-                <a href="https://discord.com/users/556559991062921217">
+                <Link href="https://discord.com/users/556559991062921217">
                   <div className={styles.feedbackFooter}>
                     {props.category !== "reposts" ? (
                       <>
@@ -339,7 +347,7 @@ export default function Gallery(props: { category: string }) {
                       </>
                     )}
                   </div>
-                </a>
+                </Link>
               </motion.div>
             </div>
           </>

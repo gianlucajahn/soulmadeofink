@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import css from "./ZoomOnScrollImage.module.scss";
 import { Feather, Repeat2, Signature } from "lucide-react";
+import Link from "next/link";
 
 export default function ZoomOnScrollImage() {
   const zoomValue = useMotionValue(0);
@@ -39,23 +40,24 @@ export default function ZoomOnScrollImage() {
         />
       </motion.div>
       <div className={css.buttonContainer}>
-        <a className={css.catBut} href="/experience">
+        <Link className={css.catBut} href="/experience">
           <button className={css.selectButton}>
             <Signature size={44} />
             Experience
           </button>
-        </a>
+        </Link>
 
         <p className={css.catText}>
           "Just me rambling about things I have experienced, my two cents on
           certain topics and the melancholy of human memories."
         </p>
 
-        <a className={css.catBut} href="/poetry">
-        <button className={css.selectButton}>
-          <Feather size={42} />
-          Poetry
-        </button></a>
+        <Link className={css.catBut} href="/poetry">
+          <button className={css.selectButton}>
+            <Feather size={42} />
+            Poetry
+          </button>
+        </Link>
 
         <p className={css.catText}>
           "I don't write structured poems but I would still much rather
@@ -63,11 +65,12 @@ export default function ZoomOnScrollImage() {
           go. This is pretty much as private as sharing thoughts can get."
         </p>
 
-        <a className={css.catBut} href="/reposts">
-        <button className={css.selectButton}>
-          <Repeat2 size={44} />
-          Reposts
-        </button></a>
+        <Link className={css.catBut} href="/reposts">
+          <button className={css.selectButton}>
+            <Repeat2 size={44} />
+            Reposts
+          </button>
+        </Link>
 
         <p className={css.catText}>
           "Letters, texts, poems and quotes that I identified enough with to
