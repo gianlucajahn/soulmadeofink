@@ -12,7 +12,6 @@ export default function PageWrapper({ children }: { children: React.ReactNode })
         key={pathname}
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 100 }}
         transition={{
           type: "spring",
           stiffness: 100,
