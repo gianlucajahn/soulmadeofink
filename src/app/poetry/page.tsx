@@ -12,7 +12,7 @@ export default function AppStoreTabs() {
   return (
       <div className={styles.experience}>
         <h1>Poetry*</h1>
-        <p>
+        <p className={styles.pageDesc}>
           *I don't write structured poems but I would still much rather
           categorize it under poetry rather than letters or texts, so here you
           go. This is pretty much as private as sharing thoughts can get.
