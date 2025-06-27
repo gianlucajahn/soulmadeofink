@@ -20,7 +20,7 @@
     font-size: 170px;
     font-family: "Renda", serif;
     letter-spacing: 0.275rem;
-    color: #9e4c3a;
+    color: #9e4c3a !important;
 
     @media screen and (max-width: 768px) {
       font-size: 74px;
@@ -49,4 +49,8 @@
       width: 90%;
     }
   }
+}
+
+.last {
+  margin-bottom: 40px !important;
 }

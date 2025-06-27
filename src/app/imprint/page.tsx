@@ -126,7 +126,7 @@ export default function AppStoreTabs() {
         einverstanden.
       </p>
 
-      <p>Impressum von Impressum-Generator.de. Powered by Franziska Hasselbach, Bonn.</p>
+      <p className={styles.last}>Impressum von Impressum-Generator.de. Powered by Franziska Hasselbach, Bonn.</p>
     </div>
   );
 }
