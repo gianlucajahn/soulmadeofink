@@ -8,7 +8,12 @@
 
   @media screen and (max-width: 768px) {
     padding-top: 150px;
-    
+  }
+
+  .first,
+  h2,
+  p {
+    color: #171717 !important;
   }
 
   h1 {
@@ -16,23 +21,21 @@
     font-family: "Renda", serif;
     letter-spacing: 0.275rem;
     color: #9e4c3a;
-      color: #171717 !important;
 
-        @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       font-size: 74px;
       letter-spacing: 0.15rem;
-      
     }
   }
 
   .first {
-        margin-top: 40px;
-          color: #171717 !important;
+    margin-top: 40px;
+    color: #171717 !important;
   }
 
   h2 {
     margin-bottom: 14px;
-      color: #171717 !important;
+    color: #171717 !important;
   }
 
   p {
@@ -41,7 +44,7 @@
     width: 40%;
     text-align: center;
     margin-bottom: 18px;
-    
+
     @media screen and (max-width: 768px) {
       width: 90%;
     }
