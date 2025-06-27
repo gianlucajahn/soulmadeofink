@@ -268,7 +268,7 @@ export default function Gallery(props: { category: string }) {
                   ))}
                 </div>
               </div>
-              <div className={styles.cardContent}>
+              <div className={styles.cardContent} style={{ color: "#171717" }}>
                 {item.content.split("\n").map((line, index) => (
                   <div
                     key={index}
