@@ -337,12 +337,12 @@ export default function Gallery(props: { category: string }) {
                     {props.category !== "reposts" ? (
                       <>
                         <MessageCircleMore color="white" />
-                        <p>Du möchtest Feedback geben?</p>
+                        <p className={styles.lowerEndText}>Du möchtest Feedback geben?</p>
                       </>
                     ) : (
                       <>
                         <Feather color="white" />
-                        <p>Author: {items().find((i) => i.id === selectedId)?.author}</p>
+                        <p className={styles.lowerEndText}>Author: {items().find((i) => i.id === selectedId)?.author}</p>
                       </>
                     )}
                   </div>

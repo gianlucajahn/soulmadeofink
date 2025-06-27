@@ -128,7 +128,6 @@
     color: white;
     text-align: start;
     width: 70%;
-    color: #171717 !important;
     margin-bottom: 9px !important;
     font-size: 18px;
   }
@@ -157,6 +156,11 @@
       padding: 14px 50px 20px 32px;
       letter-spacing: 0.02rem;
       line-height: 1.7;
+      color: #171717 !important;
+
+      div {
+        color: #171717 !important;
+      }
 
       p {
         font-size: 20px;
@@ -187,4 +191,8 @@
       pointer-events: none; /* allow clicks through the overlay */
     }
   }
+}
+
+.lowerEndText {
+  color: white !important;
 }

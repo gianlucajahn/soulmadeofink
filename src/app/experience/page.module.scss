@@ -26,13 +26,16 @@
     }
   }
 
+  .pageDesc {
+    color: #171717 !important;
+  }
+
   p {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     width: 40%;
     margin-top: 12px;
     margin-bottom: 70px;
-      color: #171717 !important;
     text-align: center;
 
     @media screen and (max-width: 768px) {
