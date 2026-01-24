@@ -7,7 +7,7 @@ import { Clock, Feather, MessageCircleMore } from "lucide-react";
 import Link from "next/link";
 
 const poems = [
-    {
+  {
     id: 1,
     title: "An untouched death",
     content:
@@ -15,7 +15,7 @@ const poems = [
     words: 124,
     categories: ["Death", "Romance"],
     dateWritten: "2024-22-10T00:00:00Z",
-    author: ""
+    author: "",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const poems = [
     words: 80,
     categories: ["Melancholy", "Romance"],
     dateWritten: "2024-08-04T00:00:00Z",
-    author: ""
+    author: "",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const poems = [
     words: 164,
     categories: ["Romance", "Fragility"],
     dateWritten: "2022-08-30T00:00:00Z",
-    author: ""
+    author: "",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const poems = [
     words: 110,
     categories: ["Parenthood", "Memory"],
     dateWritten: "2021-05-19T00:00:00Z",
-    author: ""
+    author: "",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const poems = [
     words: 523,
     categories: ["Romance", "Humility"],
     dateWritten: "2023-01-27T00:00:00Z",
-    author: ""
+    author: "",
   },
 ];
 
@@ -203,23 +203,33 @@ const reposts = [
 const experiences = [
   {
     id: 1,
+    title: "Everything is noise",
+    content:
+      "I don't know how people without ADHD or other forms of stunted attention spans feel, but I have always struggled with staying focussed on what I'm trying to do, when it really could have been easy as cake. Or maybe not.\n I never had issues with doomscrolling, social media screen time or anything similar because I always had a strong urge to be productive and I wholeheartedly believe if you do, you lack a passion, but that doesn't make me any better because I recently noticed that what I considered superior to that - and what most of us would also consider superior to that - is nothing but the same noise all over again. I may not have a social media addiction, but I have a miserable interest in anything that is not yet understood.\n As Ernest Rutherford once so famously - or unfortunately not, because I have never met another person who knew he did - said, all of physics is either impossible or trivial. It is impossible until we understand it, and then it becomes trivial. And I love spending my time with a dozen different niches in natural sciences that would rather be situated in the "impossible" section of them. However, as much as that is what I always considered a cool, nerdy interest and an attempt to become a polymath of sciences, no matter how well-respected this trait of mine was by my peers and no matter how much it is socially accepted as productive, it really isn't.\n Sure thing, it's probably making you more knowledgeable than doom-scrolling through tiktok dances or watching people die on instagram (why is that still a thing, @meta?) but it ultimately doesn't get you a single step closer to, as I said in the beginning, what you're trying to do.\n Now today I sat there reading and watching a video about a scientific paper that discussed how manufacturing (pharmaceutical) drugs, semiconductors and fiber optics in space would drastically increase the output quality. Which was really interesting to see, don't get me wrong. But I sat there, pausing, reading the same paragraph over and over until I could finally follow the author, feeling great about my now understanding when it really didn't mean fuck-all jack shit. As little as I like to admit it, anything and I mean ANYTHING you could learn, watch, consume or talk about that isn't about the one activity you currently view as the activity that gets you furthest towards your goals is noise. It's all just noise.\n We may tell ourselves and others that one kind of noise is better than the other but ultimately, the different level of impact it will have on our lives is negligible. As little as I want to admit it and as little as I want to be this kind of person, I - and maybe you, really depends on your goals here - should lock in a tunnel vision on software engineering content and ignore any kind of information that doesn't pass said tunnel.\n There's people out there half as smart as you who are way too dumb to be curious, rendering them immune to that wandering-mind-syndrome (which is an embarrassing term I totally just made up for the lack of a better one) you and me might not be able to defeat yet.\n And I really didn't need any of that methylphenidate to come to this conclusion, so don't even begin to use this as an excuse. We're better than that.",
+    words: 590,
+    categories: ["Focus", "Purpose"],
+    dateWritten: "2026-24-01T00:00:00Z",
+    author: "",
+  },
+  {
+    id: 2,
     title: "A view on religions",
     content:
       "Do we really need religions? I'm not sure. Since the dawn of time, I have been personally answering this question to myself with a clear No, because Religions have very flawed opinions on certain topics. Of course, that's nothing rare. Most instances do. That's why you can't blindly believe and follow any instance, for that matter. In my opinion, religions aren't excluded from this, eliminating their only raison d'être. \n Let's look at a couple of those topics.\n  Homosexuality doesn’t concern me personally. I have no issue with homosexual people and I have reasons for that. First, my instincts: Seeing homosexual couples in series/films kissing, having sex, or engaging in any kind of bodily fluid exchange gives me less joy than watching the same actions between heterosexual couples. This stems from the fact that I myself have been in such situations and, due to my heterosexuality, instinctively prefer that idea. However, nobody is forcing me to watch homosexuals kiss or have sex—and even if they did, it wouldn’t kill me or harm me in any way. These people should do what makes them happy, as they’re not hurting anyone. So it’s absolutely fine with me if it brings them joy.\n Now for the logical approach: If a behavior is completely natural—i.e., innate to the being—and doesn’t harm other living beings, itself, or the environment, then it is by no means a problem and should be deemed acceptable.\n That hopefully sounds logical to everyone. If not: read it again. Still not? Close the tab. Now, we just have to determine whether homosexuality is innate to humans or a result of modern societal development. To simplify this question, let’s just look at animals. Animals have had no opportunity in the past decades to build a society as massive as ours, let alone interact with technological or biological advancements that could somehow explain a homosexual development.\n Well, as not everyone may know, according to the organization “Against Nature?” around 1,500 animal species exhibit homosexual behavior. Homosexuality has been observed—at least to a small degree—in a wide range of species. Some examples: 94 out of 100 pairings among giraffes are between same-sex partners. Three-quarters of all dolphins have same-sex partners. 19% of male mallards live homosexually. More than 80% of sea lions show homosexual tendencies. A third to half of orcas engage in homosexual behavior. So, it can clearly be stated that homosexuality is not a product of societal development but a natural, innate drive in a minority of individuals. Thus, it is proven: Homosexuality is entirely harmless and has no negative impact on the person or their surroundings (at most, birthrates might drop—if everyone suddenly became gay).\n I quote the islam:\n 'The practice of same-sex sexual relations by men and women is considered 'illegitimate sexual intercourse' (Zina, fornication) under a conservative interpretation of Islamic law.'.\n As for Christianity:\n 'God intended sexuality only for marriage between man and woman' (Genesis 1:27, 28; Leviticus 18:22; Proverbs 5:18, 19).\n And Judaism:\n 'If a man lies with a man as with a woman—both have committed an abomination; they shall surely be put to death, their blood is upon them!” (Lev. 20:13)'\n Christian believers often try to excuse this by claiming they only reject the homosexual behavior, not the individual. They support this with 'Honor all people' (1 Peter 2:17) and want to suggest that they still treat homosexuals with respect. But the legal clause in Leviticus 20:13 still prescribes the death penalty for anal intercourse between men. Contradictory? Oh yes. Frankly, I don’t care whether Christianity condemns just the sexual orientation and not the person—it doesn’t make it any better. As I’ve just proven, there is no logical reason to reject this orientation. It is simply—excuse the blunt term—stupid to do so.\n In the past, women were more responsible for managing the household than for earning wages. Today, our society is striving to create a career-based balance between men and women. One might argue about which parent is better suited for raising children, as I am not well-versed in pedagogy. But one cannot argue about whether one gender is superior to the other. There are about as many women with above-average IQs as men, which nullifies the question of value.\n The Roman Catholic philosopher Thomas Aquinas—incidentally one of the most influential philosophers in history—believed that women were failed men who had not fully attained the human form. He did, however, acknowledge that women were necessary for reproduction. How comforting. Christian friends would now message me, saying that’s just 'the opinion of some odd 16th-century philosopher' and that this indirect quote doesn’t prove anything. So, let’s be thorough:\n In the epistle to the Ephesians, attributed to Paul (Eph 5), it says:\n Wives, submit yourselves to your husbands as you do to the Lord. For the husband is the head of the wife as Christ is the head of the church, his body, of which he is the Savior. Now as the church submits to Christ, so also wives should submit to their husbands in everything.\n According to Martin Luther, the major reformer who set in motion the Reformation and the denominational splits between the 16th and 17th centuries:\n Death in childbirth is nothing more than dying in noble work and obedience to God. If women wear themselves out and ultimately die from it, it doesn’t matter. Let them die, that’s what they’re there for.\n An illogical and utterly baseless thesis. In 'Surah 4' of the Quran, it says that men are above women. At least, according to Islamic scholars, the Quran does not claim that women were created from men. Quote:\n God first created the genderless being human. From that, God simultaneously and equally formed man and woman, says Hafner-Al Jabaji. The woman was not created from man in the Islamic understanding.\n In Judaism, the role of the woman was also subordinate to the man. Girls received little to no education, and participation in synagogue events was forbidden to them. Only later were women’s sections introduced in synagogues, which were considered less sacred and were separated by grilles from the men's area.\n I’m honestly glad that religion makes it so easy for me when it comes to gender roles. I don’t have to explain for long why it’s pointless to argue about the value of the genders, because from a logical point of view there’s only one correct answer. Finally, I’d like to say something about the famous stories we were told as children through religious books.\n I don’t need to say much about that either: Stories like the existence of Jesus, Jesus’ resurrection, or Moses parting the sea have been passed down from generation to generation, and I find it absolutely ridiculous that these stories are the first things taught to children. I can’t describe it any other way than “ridiculous.” We are talking about unproven stories being told to children to give the appearance of seriousness or realism to one’s religion. If these stories were proven, there would be only one religion—and that’s not the case. Children are taught to believe in something that is actually purely theoretical and that shouldn’t be given attention unless evidence is being actively sought. No wonder kids believe everything adults say, when they’re handed something as foundational as religion with no proof and are still expected to be interested in or even follow it.\n A comparison from science to clarify my opinion: The Higgs boson particle, a fundamental particle in physics, was first theorized around 1960. Back then, it was claimed to exist. The first step was to discuss whether its existence was even physically/mathematically/chemically possible. Once that was settled, individual physicists began trying to prove the particle's existence. In 2012, a particle accelerator was used to detect a particle that could have been the Higgs boson. After lengthy analysis, its existence was confirmed, and François Englert and Peter Higgs received the 2013 Nobel Prize in Physics. That’s how arguments and the support of a position should work.\n In conclusion, based on my research, I’ve come to the conclusion that all three religions I examined show contempt—unsupported by arguments or reasons—for various societal structures and groups of people. This contempt is—as I’ve proven at the beginning of both the ‘Homosexuality’ and ‘Gender Roles’ sections—wrong and irrational. It punishes people who haven’t harmed themselves, others, or the environment. If I belonged to one of these religions, I would now know that some doctrines (not all, but some) of this religion are irrational. I would therefore conclude that I must question every doctrine my religion teaches me based on its logic and rationality, as there is a chance that the teaching is irrational. So instead of having to ask whether every argument and claim of my religion is “logical,” I can simply set all religious teachings aside and think rationally.\n That saves me both time and energy.",
     words: 1955,
     categories: ["Religion", "Philosophy"],
     dateWritten: "2023-10-01T00:00:00Z",
-    author: ""
+    author: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "Schools and public opinion",
     content:
       "Today, I want to look at the topic of schools. First, let me explain the most obvious fundamental idea behind the concept of 12 years of schooling:\n Primary school: A student begins their education. First, they learn how to speak—both in German and in English, which is controversial for some. I personally didn’t start English lessons until 4th grade, so I can’t give a well-founded opinion on the new system. Alongside language learning, students are introduced to the basics of the world around them in the form of general science. They receive math instruction and learn how to calculate using small numbers, for simplicity’s sake. This continues throughout the first four years of schooling. After that, the student has completed primary school.\n Secondary school: The student is now introduced to physics, and later also to chemistry, biology, and a second foreign language. Since chemistry is fundamentally based on physics (very basically—don’t tilt, please!), you only start chemistry lessons in 7th grade, and physics from the 6th grade. Makes sense? Yes.\n The further progression of school education is often criticized by many students. I find it absolutely understandable. Yes, I was annoyed at times that I had to take music and art classes, but I’m not going to complain about it now, because I can fully understand the logic behind it. A person at the age of 10 can never be 100% sure what they want to do in life. They haven’t had physics classes, chemistry classes, history lessons, or even been in a biology lecture hall, nor have they taken art or music courses. Maybe they think they want to “work in math” later but then realize that they’re more drawn to physics or chemistry. But they can’t make that decision if they’ve never been exposed to those subjects!\n In school, students are given the opportunity to get a broad introduction to all common subject areas and then decide which one they like best. You might not want art class but would love to have twice as much physical education. Your classmate, on the other hand, might want to spend the whole day talking about Claude Monet. Another student devours every bit of information about the life of Johann Sebastian Bach. Everyone has their own interests, and everyone is given the opportunity to discover them. The school system could remove history, art, and music classes—but doing so would create socially stunted robots who are unable to participate in political discussions, for example.\n History class, for instance, is a fundamental building block that is needed to understand the political interests and actions of various countries. If you can’t at least historically understand American patriotism, then clearly you weren’t paying attention in school. That’s just one of many examples of why education is important for general knowledge and for helping our future fellow citizens find their interests.\n Twist it and turn it however you want, but you should be glad that you have access to such a wide range of education at such a low cost.",
     words: 862,
     categories: ["Society", "Behavioral Science"],
     dateWritten: "2023-10-01T00:00:00Z",
-    author: ""
+    author: "",
   },
 ];
 
@@ -337,12 +347,20 @@ export default function Gallery(props: { category: string }) {
                     {props.category !== "reposts" ? (
                       <>
                         <MessageCircleMore color="white" />
-                        <p className={styles.lowerEndText}>Du möchtest Feedback geben?</p>
+                        <p className={styles.lowerEndText}>
+                          Du möchtest Feedback geben?
+                        </p>
                       </>
                     ) : (
                       <>
                         <Feather color="white" />
-                        <p className={styles.lowerEndText} style={{ color: "white" }}>Author: {items().find((i) => i.id === selectedId)?.author}</p>
+                        <p
+                          className={styles.lowerEndText}
+                          style={{ color: "white" }}
+                        >
+                          Author:{" "}
+                          {items().find((i) => i.id === selectedId)?.author}
+                        </p>
                       </>
                     )}
                   </div>
