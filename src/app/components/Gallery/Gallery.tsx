@@ -9,36 +9,6 @@ import Link from "next/link";
 const poems = [
   {
     id: 1,
-    title: "An untouched death",
-    content:
-      "I want to write. I want to live.\n A life, together with you and dedicated to you. \n I despise death but when the time comes, burn me, for the heat will reduce all my fears to nothing. My body, my life and my purpose will be lamented. In my ashes, all that will remain of me are the memories of you. \n So go, and scatter what's left of me in fields of crops. Let the wind carry me in my ghostly form. Each atom a memory of you repurposed into growing something as beautiful as you. \n Strangers will feel the lure of your delicate heart in the flowering pastures as once did I when I saw you. \n Over time, a tree will grow, strong and fierce. Cut it down, so that they can feel the warmth you once provided to me.",
-    words: 124,
-    categories: ["Death", "Romance"],
-    dateWritten: "2024-22-10T00:00:00Z",
-    author: "",
-  },
-  {
-    id: 2,
-    title: "Cognizance",
-    content:
-      "Merely a faint glimpse into your soul is what I've gotten so far, yet was it enough to make me feel like a fresh summer breeze blew through a home I didn't know I had. \n For you to appear in my dreams when I barely knew your face. \n For me to know it's you even if I hadnt seen your face at all. \n For me to realize, at long last, I've always missed this sense of home. \n I missed you without even knowing you.",
-    words: 80,
-    categories: ["Melancholy", "Romance"],
-    dateWritten: "2024-08-04T00:00:00Z",
-    author: "",
-  },
-  {
-    id: 3,
-    title: "Seperation",
-    content:
-      "I wanted to write about you but got dragged into wanting to write about myself upon thinking of you for long. However, when I started to write about myself, I had to think about you again. \n And just in that moment, it appeared to me that my perception of myself or of you — they don't work without each other anymore. \n I am no precisely measurable and separable thing when existing next to you. In my mind, as it seems to be, you and me are no separable and self-contained systems, but rather two parts of the same entity. \n Like two branches of roots from the same tree that got cut in two by erosion. And as it rained — or metaphorically — as we met again, we grew back together into supporting the weight of the tree we're helping sprout. \n Two branches of roots that grow in love, resilience, and longing every time we separate and grow together again.",
-    words: 164,
-    categories: ["Romance", "Fragility"],
-    dateWritten: "2022-08-30T00:00:00Z",
-    author: "",
-  },
-  {
-    id: 4,
     title: "Outlasting our future",
     content:
       "I'm an ever-curious person — would you ask me if I wanted to know about the future, I'd say yes. \n But not about ours. \n Not about ours in the same way you wouldn't want to be spoiled about an upcoming movie. \n Because I want to preserve my curiosity. \n Because I want to dream. \n I want to dream about the daughter or the son we're raising. About those beautiful eyes you'll give them. About your loving mind and faithful heart you're handing on to them. \n About my love for you, outlasting us, because the world will find within our children all the reasons why I loved you all my life.",
@@ -48,13 +18,33 @@ const poems = [
     author: "",
   },
   {
-    id: 5,
-    title: "Letters to her",
+    id: 2,
+    title: "An untouched death",
     content:
-      "It was you who made me be excited to wake up in the morning and check my phone instead of trotting to work. And it was you who made me wake up early in the first place so I could spend more time with you. \n It was you who, even on days where I could barely see or where my heart felt like it was pounding out of my chest, made me glad to experience them because it meant more time with you. \n It was you who made me hope for the truthiness in reincarnation because I feared one lifetime with you was not enough for me. \n It was you who made me go from a cold rock back to a little boy writing love letters. \n It was you who made me excited for my vacation to pass so I could get closer to seeing you again. It was you who made my head foggy and left me incapable of holding up a conversation every time I looked at your beautiful face. \n It was you who made me believe in soulmates because I fell in love with yours deeper than light falls into black holes after traveling the universe for long enough. \n It was you who made me want to show our kids what true love looked like. \n You are my moon and my sun at once, for ever since I met you I have never sat in the dark. \n It is you who has my heart, and it is not as if you stole it. You took my heart back like a book that you lent someone for them to read. You took it back as if you already had it in a past life and only let me borrow it until you found me again. I dearly hope for you to take it many times over, in many more lifetimes that I get to share with you. \n Because I love you, and I always will. Even if you asked me to stop or even if I tried to forget you — which I never would and never could. \n If you woke up tomorrow and forgot all we had, I would tell you all about us, even if it took until midnight just for you to forget it all again and for me to start from scratch the next day. I would never succeed, but even more so, I would never give up. Not on us — even if everything that was left from it was a memory in my head and a faint smile on your face at the end of the day when you start to remember what we had. \n I will never give up on you. Not today, not tomorrow, not in any fight we will ever have, and not in a decade. \n I love you. And I hope one day to be worthy of your love.",
-    words: 523,
-    categories: ["Romance", "Humility"],
-    dateWritten: "2023-01-27T00:00:00Z",
+      "I want to write. I want to live.\n A life, together with you and dedicated to you. \n I despise death but when the time comes, burn me, for the heat will reduce all my fears to nothing. My body, my life and my purpose will be lamented. In my ashes, all that will remain of me are the memories of you. \n So go, and scatter what's left of me in fields of crops. Let the wind carry me in my ghostly form. Each atom a memory of you repurposed into growing something as beautiful as you. \n Strangers will feel the lure of your delicate heart in the flowering pastures as once did I when I saw you. \n Over time, a tree will grow, strong and fierce. Cut it down, so that they can feel the warmth you once provided to me.",
+    words: 124,
+    categories: ["Death", "Romance"],
+    dateWritten: "2024-22-10T00:00:00Z",
+    author: "",
+  },
+  {
+    id: 3,
+    title: "Cognizance",
+    content:
+      "Merely a faint glimpse into your soul is what I've gotten so far, yet was it enough to make me feel like a fresh summer breeze blew through a home I didn't know I had. \n For you to appear in my dreams when I barely knew your face. \n For me to know it's you even if I hadnt seen your face at all. \n For me to realize, at long last, I've always missed this sense of home. \n I missed you without even knowing you.",
+    words: 80,
+    categories: ["Melancholy", "Romance"],
+    dateWritten: "2024-08-04T00:00:00Z",
+    author: "",
+  },
+  {
+    id: 4,
+    title: "Seperation",
+    content:
+      "I wanted to write about you but got dragged into wanting to write about myself upon thinking of you for long. However, when I started to write about myself, I had to think about you again. \n And just in that moment, it appeared to me that my perception of myself or of you, they don't work without each other anymore. \n I am no precisely measurable and separable thing when existing next to you. In my mind, as it seems to be, you and me are no separable and self-contained systems, but rather two parts of the same entity. \n Like two branches of roots from the same tree that got cut in two by erosion. And as it rained, or metaphorically, as we met again, we grew back together into supporting the weight of the tree we're helping sprout. \n Two branches of roots that grow in love, resilience, and longing every time we separate and grow together again.",
+    words: 164,
+    categories: ["Romance", "Fragility"],
+    dateWritten: "2022-08-30T00:00:00Z",
     author: "",
   },
 ];
