@@ -6,7 +6,7 @@ export default function Footer () {
   return (
     <div className={css.footer}>
       <Link href="/imprint">Impressum</Link>
-      <p>© 2025 - Soul Made of Ink, handcrafted by Gianni</p>
+      <p>© 2026 - Soul Made of Ink, handcrafted by Gianni</p>
     </div>
   );
 }
