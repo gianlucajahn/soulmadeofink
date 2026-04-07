@@ -11,7 +11,7 @@ const poems = [
     id: 1,
     title: "Outlasting our future",
     content:
-      "I'm an ever-curious person. Would you ask me if I wanted to know about the future, I'd say yes. \n But not about ours. \n Not about ours in the same way you wouldn't want to be spoiled about an upcoming movie. \n Because I want to preserve my curiosity. \n Because I want to dream. \n I want to dream about the daughter or the son we're raising. About those beautiful eyes you'll give them. About your loving mind and faithful heart you're handing on to them. \n About my love for you, outlasting us, because the world will find within our children all the reasons why I loved you all my life.",
+      "I'm an ever-curious person. Would you ask me if I wanted to know about the future, I'd say yes. \n But not about ours. Not even about who you are. \n Not about ours in the same way you wouldn't want to be spoiled about an upcoming movie. \n Because I want to preserve my curiosity. \n Because I want to dream. \n I want to dream about the daughter or the son we're raising. About those beautiful eyes you'll give them. About your loving mind and faithful heart you're handing on to them. \n About my upcoming love for you, outlasting us, because the world will find within our children all the reasons why I loved you all my life.",
     words: 110,
     categories: ["Parenthood", "Memory"],
     dateWritten: "2021-05-19T00:00:00Z",
@@ -29,16 +29,6 @@ const poems = [
   },
   {
     id: 3,
-    title: "Cognizance",
-    content:
-      "Merely a faint glimpse into your soul is what I've gotten so far, yet was it enough to make me feel like a fresh summer breeze blew through a home I didn't know I had. \n For you to appear in my dreams when I barely knew your face. \n For me to know it's you even if I hadnt seen your face at all. \n For me to realize, at long last, I've always missed this sense of home. \n I missed you without even knowing you.",
-    words: 80,
-    categories: ["Melancholy", "Romance"],
-    dateWritten: "2024-08-04T00:00:00Z",
-    author: "",
-  },
-  {
-    id: 4,
     title: "Seperation",
     content:
       "I wanted to write about you but got dragged into wanting to write about myself upon thinking of you for long. However, when I started to write about myself, I had to think about you again. \n And just in that moment, it appeared to me that my perception of myself or of you, they don't work without each other anymore. \n I am no precisely measurable and separable thing when existing next to you. In my mind, as it seems to be, you and me are no separable and self-contained systems, but rather two parts of the same entity. \n Like two branches of roots from the same tree that got cut in two by erosion. And as it rained, or metaphorically, as we met again, we grew back together into supporting the weight of the tree we're helping sprout. \n Two branches of roots that grow in love, resilience, and longing every time we separate and grow together again.",
