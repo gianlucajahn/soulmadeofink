@@ -9,16 +9,6 @@ import Link from "next/link";
 const poems = [
   {
     id: 1,
-    title: "Outlasting our future",
-    content:
-      "I'm an ever-curious person. Would you ask me if I wanted to know about the future, I'd say yes. \n But not about ours. Not even about who you are. \n Not about ours in the same way you wouldn't want to be spoiled about an upcoming movie. \n Because I want to preserve my curiosity. \n Because I want to dream. \n I want to dream about the daughter or the son we're raising. About those beautiful eyes you'll give them. About your loving mind and faithful heart you're handing on to them. \n About my upcoming love for you, outlasting us, because the world will find within our children all the reasons why I loved you all my life.",
-    words: 110,
-    categories: ["Parenthood", "Memory"],
-    dateWritten: "2021-05-19T00:00:00Z",
-    author: "",
-  },
-  {
-    id: 2,
     title: "An untouched death",
     content:
       "I want to write. I want to live.\n A life, together with you and dedicated to you. \n I despise death but when the time comes, burn me, for the heat will reduce all my fears to nothing. My body, my life and my purpose will be lamented. In my ashes, all that will remain of me are the memories of you. \n So go, and scatter what's left of me in fields of crops. Let the wind carry me in my ghostly form. Each atom a memory of you repurposed into growing something as beautiful as you. \n Strangers will feel the lure of your delicate heart in the flowering pastures as once did I when I saw you. \n Over time, a tree will grow, strong and fierce. Cut it down, so that they can feel the warmth you once provided to me.",
@@ -28,13 +18,23 @@ const poems = [
     author: "",
   },
   {
-    id: 3,
+    id: 2,
     title: "Seperation",
     content:
       "I wanted to write about you but got dragged into wanting to write about myself upon thinking of you for long. However, when I started to write about myself, I had to think about you again. \n And just in that moment, it appeared to me that my perception of myself or of you, they don't work without each other anymore. \n I am no precisely measurable and separable thing when existing next to you. In my mind, as it seems to be, you and me are no separable and self-contained systems, but rather two parts of the same entity. \n Like two branches of roots from the same tree that got cut in two by erosion. And as it rained, or metaphorically, as we met again, we grew back together into supporting the weight of the tree we're helping sprout. \n Two branches of roots that grow in love, resilience, and longing every time we separate and grow together again.",
     words: 164,
     categories: ["Romance", "Fragility"],
     dateWritten: "2022-08-30T00:00:00Z",
+    author: "",
+  },
+    {
+    id: 3,
+    title: "Outlasting our future",
+    content:
+      "I'm an ever-curious person. Would you ask me if I wanted to know about the future, I'd say yes. \n But not about ours. Not even about who you are. \n Not about ours in the same way you wouldn't want to be spoiled about an upcoming movie. \n Because I want to preserve my curiosity. \n Because I want to dream. \n I want to dream about the daughter or the son we're raising. About those beautiful eyes you'll give them. About your loving mind and faithful heart you're handing on to them. \n About my upcoming love for you, outlasting us, because the world will find within our children all the reasons why I loved you all my life.",
+    words: 110,
+    categories: ["Parenthood", "Memory"],
+    dateWritten: "2021-05-19T00:00:00Z",
     author: "",
   },
 ];
